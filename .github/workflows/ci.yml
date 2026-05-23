@@ -1,1 +1,33 @@
-﻿name: SIGEH CI/CD Pipeline`n`non:`n  push:`n    branches: [ main ]`n  pull_request:`n    branches: [ main ]`n`njobs:`n  analisis:`n    name: Analisis del proyecto SIGEH`n    runs-on: ubuntu-latest`n    steps:`n      - name: Obtener codigo`n        uses: actions/checkout@v4`n      - name: Configurar Java 21`n        uses: actions/setup-java@v4`n        with:`n          java-version: 21`n          distribution: temurin`n      - name: Contar archivos Java`n        run: find src -name "*.java" | wc -l`n      - name: Contar lineas de codigo`n        run: find src -name "*.java" -exec wc -l {} + | tail -1`n      - name: Listar clases del sistema`n        run: find src -name "*.java" -exec basename {} .java \;`n      - name: Resumen`n        run: |`n          echo "=============================="`n          echo "SIGEH - SoftHealth Solutions"`n          echo "Rama ${{ github.ref_name }}"`n          echo "Commit ${{ github.sha }}"`n          echo "=============================="
+name: SIGEH CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  analisis:
+    name: Analisis del proyecto SIGEH
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obtener codigo
+        uses: actions/checkout@v4
+
+      - name: Configurar Java 21
+        uses: actions/setup-java@v4
+        with:
+          java-version: 21
+          distribution: temurin
+
+      - name: Contar archivos Java
+        run: find src -name "*.java" | wc -l
+
+      - name: Contar lineas de codigo
+        run: find src -name "*.java" -exec wc -l {} + | tail -1
+
+      - name: Listar clases del sistema
+        run: find src -name "*.java" -exec basename {} .java ";"
+
+      - name: Resumen
+        run: echo "SIGEH - SoftHealth Solutions S.A.S."
