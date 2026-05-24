@@ -1,4 +1,10 @@
 # PROYECTO
+## Como iniciar el proyecto (Esto va de ultimo hay que borrar este mensaje)
+
+1. Descomprimir el archivo .RAR
+2. Abrir Visual Studio u otro IDE que admita el formato JAVA
+3. Iniciar el programa desde la ruta de acceso en donde se descomprimio el archivo .RAR
+
 
 ## Estructura del proyecto
 
@@ -29,15 +35,6 @@ SIGEH_Test_System/
 ├── Libraries/
 └── Test Libraries/
 ```
-
-## Como iniciar el proyecto (Esto va de ultimo hay que borrar este mensaje)
-
-1. Descomprimir el archivo .RAR
-2. Abrir Visual Studio u otro IDE que admita el formato JAVA
-3. Iniciar el programa desde la ruta de acceso en donde se descomprimio el archivo .RAR
-
-
-
 Arquitectura del sistema
 
 El sistema SIGEH fue desarrollado utilizando Java Swing bajo una arquitectura modular orientada a objetos.
