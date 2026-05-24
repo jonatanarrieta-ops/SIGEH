@@ -1,4 +1,4 @@
-### PROYECTO
+# PROYECTO
 
 # Estructura del proyecto
 SIGEH_Test_System/
@@ -27,7 +27,7 @@ SIGEH_Test_System/
 ├── Libraries/
 └── Test Libraries/
 
-# Como iniciar el proyecto (Esto va de ultimo hay que borrar este mensaje)
+## Como iniciar el proyecto (Esto va de ultimo hay que borrar este mensaje)
 
 1. Descomprimir el archivo .RAR
 2. Abrir Visual Studio u otro IDE que admita el formato JAVA
