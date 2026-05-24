@@ -1,6 +1,31 @@
 ### PROYECTO
 
-
+# Estructura del proyecto
+SIGEH_Test_System/
+├── Source Packages/
+│
+├── Test/
+│   ├── Cita.java
+│   ├── CitasPanel.java
+│   ├── DashboardPanel.java
+│   ├── DataRepository.java
+│   ├── Factura.java
+│   ├── FacturacionPanel.java
+│   ├── HistoriaClinica.java
+│   ├── HistoriaClinicaPanel.java
+│   ├── MenuIcon.java
+│   ├── Paciente.java
+│   ├── PacientesPanel.java
+│   ├── ReportesPanel.java
+│   ├── SIGEH_Modern_UI.java
+│   └── UIUtils.java
+│
+├── resources/
+│   └── logo.png
+│
+├── Test Packages/
+├── Libraries/
+└── Test Libraries/
 
 # Como iniciar el proyecto (Esto va de ultimo hay que borrar este mensaje)
 
