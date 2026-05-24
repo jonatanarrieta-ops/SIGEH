@@ -35,7 +35,7 @@ SIGEH_Test_System/
 ├── Libraries/
 └── Test Libraries/
 ```
-Arquitectura del sistema
+## Arquitectura del sistema
 
 El sistema SIGEH fue desarrollado utilizando Java Swing bajo una arquitectura modular orientada a objetos.
 
@@ -50,7 +50,8 @@ Lógica de negocio
 Esto facilita el mantenimiento y escalabilidad del sistema.
 
 
-Descripción de clases y módulos
+## Descripción de clases y módulos
+
 Clase	Responsabilidad
 SIGEH_Modern_UI.java	Clase principal del sistema y ventana principal
 DashboardPanel.java	Panel principal del dashboard
@@ -81,7 +82,7 @@ Lógica de negocio
 
 Esto facilita el mantenimiento y escalabilidad del sistema.
 
-Aplicación de principios SOLID
+## Aplicación de principios SOLID
 S — Single Responsibility Principle
 
 Cada clase tiene una única responsabilidad específica dentro del sistema.
