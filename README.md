@@ -1,7 +1,8 @@
 # PROYECTO
 
 ## Estructura del proyecto
-Estructura del proyecto
+
+```text
 SIGEH_Test_System/
 ├── Source Packages/
 │
@@ -27,6 +28,7 @@ SIGEH_Test_System/
 ├── Test Packages/
 ├── Libraries/
 └── Test Libraries/
+```
 
 ## Como iniciar el proyecto (Esto va de ultimo hay que borrar este mensaje)
 
